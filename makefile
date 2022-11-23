@@ -1,5 +1,5 @@
 .PHONY: all recursived loopd loops recursives clean
-all : loopd loops recursived recursives mains maindloop maindrec
+all : recursived loopd loops recursives mains maindloop maindrec
 loopd : libclassloops.so
 loops : libclassloops.a
 recursived : libclassrec.so
